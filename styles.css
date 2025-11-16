@@ -1,65 +1,70 @@
-
-/* Fundo geral da página */
+/* Fundo geral */
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(180deg, #ff7f00, #ffbb00);
-    color: #fff;
     text-align: center;
-    padding: 20px;
 }
 
 /* Título */
 header h1 {
-    font-size: 26px;
-    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 28px;
     font-weight: bold;
+}
+
+.subtitulo {
+    color: #fff;
+    font-size: 16px;
+    margin-top: -10px;
 }
 
 /* Container do produto */
 .produto {
-    background: rgba(0, 0, 0, 0.25);
-    padding: 15px;
-    border-radius: 12px;
+    background: #ffffffdd;
+    width: 90%;
     max-width: 420px;
-    margin: auto;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
 /* Imagem */
 .foto-produto {
-    width: 320px;
-    height: auto;
+    width: 280px;
+    max-width: 90%;
+    margin: 10px auto;
     display: block;
-    margin: 20px auto;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
-
 
 /* Preço */
 .preco {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
-    margin: 10px 0;
+    color: #222;
 }
 
 /* Botões */
 .botao, .botao-whatsapp {
     display: block;
-    padding: 14px;
+    width: 95%;
     margin: 12px auto;
-    width: 90%;
-    max-width: 300px;
-    text-align: center;
+    padding: 14px;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
     color: white;
     text-decoration: none;
     border-radius: 10px;
     transition: 0.2s;
 }
 
-/* Botão Mercado Livre */
+/* Mercado Livre */
 .botao {
     background-color: #3483fa;
 }
@@ -68,7 +73,7 @@ header h1 {
     background-color: #2362c7;
 }
 
-/* Botão WhatsApp */
+/* WhatsApp */
 .botao-whatsapp {
     background-color: #25d366;
 }
