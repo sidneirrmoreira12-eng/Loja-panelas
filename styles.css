@@ -1,3 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body { font-family: Arial; background:#f6f6f6; margin:0; padding:0; text-align:center; }
+header { background:#111; color:white; padding:20px; font-size:22px; }
+.produto { background:white; margin:20px; padding:20px; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.2); }
+.foto-produto { width:90%; max-width:350px; border-radius:10px; }
+.preco { font-size:24px; color:#222; margin:10px 0; }
+.botao { display:inline-block; padding:12px 20px; background:#008f4c; color:white; text-decoration:none; border-radius:10px; font-size:18px; }
