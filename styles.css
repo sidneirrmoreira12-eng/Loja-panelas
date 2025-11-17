@@ -1,92 +1,59 @@
-/* ===== Modelo 2 — Estilo Moderno ===== */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
 }
 
 header {
-  background: linear-gradient(90deg, #ff7a00, #ffb300);
-  padding: 25px;
-  text-align: center;
-  color: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-header h1 {
-  margin: 0;
-  font-size: 32px;
-  font-weight: bold;
+    background: linear-gradient(to right, #ff7a00, #ffb300);
+    padding: 30px 10px;
+    text-align: center;
+    color: white;
 }
 
 .subtitulo {
-  margin-top: 6px;
-  font-size: 16px;
-  opacity: .95;
+    margin-top: -10px;
+    font-size: 14px;
 }
 
-/* Container geral */
 .catalogo {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  padding: 25px;
+    padding: 20px;
 }
 
-/* Card do produto */
 .card {
-  background: #fff;
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-  text-align: center;
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .card img {
-  width: 100%;
-  max-width: 350px;
-  border-radius: 10px;
-  margin-bottom: 15px;
+    width: 100%;
+    border-radius: 10px;
 }
 
-.card h2 {
-  margin: 0;
-  font-size: 22px;
-  color: #222;
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
 }
 
-.card .preco {
-  font-size: 26px;
-  margin: 15px 0;
-  font-weight: bold;
-  color: #d22;
-}
-
-/* Botões */
 .botao {
-  display: block;
-  margin: 10px auto;
-  padding: 14px;
-  width: 85%;
-  border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-  transition: .25s;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
 
-.mercado {
-  background: #3483fa;
-}
-.mercado:hover {
-  background: #296bd1;
+.botao.mercado {
+    background: #3483fa;
 }
 
-.wpp {
-  background: #25d366;
-}
-.wpp:hover {
-  background: #1aaa53;
+.botao.wpp {
+    background: #25d366;
 }
