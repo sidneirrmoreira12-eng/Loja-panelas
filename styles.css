@@ -1,83 +1,92 @@
-/* Fundo geral */
+/* ===== Modelo 2 — Estilo Moderno ===== */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #ff7f00, #ffbb00);
-    text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
 }
 
-/* Título */
+header {
+  background: linear-gradient(90deg, #ff7a00, #ffb300);
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
 header h1 {
-    color: #fff;
-    margin-top: 20px;
-    font-size: 28px;
-    font-weight: bold;
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .subtitulo {
-    color: #fff;
-    font-size: 16px;
-    margin-top: -10px;
+  margin-top: 6px;
+  font-size: 16px;
+  opacity: .95;
 }
 
-/* Container do produto */
-.produto {
-    background: #ffffffdd;
-    width: 90%;
-    max-width: 420px;
-    margin: 25px auto;
-    padding: 20px;
-    border-radius: 16px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+/* Container geral */
+.catalogo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
 }
 
-/* Imagem */
-.foto-produto {
-    width: 280px;
-    max-width: 90%;
-    margin: 10px auto;
-    display: block;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+/* Card do produto */
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  text-align: center;
 }
 
-/* Preço */
-.preco {
-    font-size: 24px;
-    font-weight: bold;
-    color: #222;
+.card img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #222;
+}
+
+.card .preco {
+  font-size: 26px;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #d22;
 }
 
 /* Botões */
-.botao, .botao-whatsapp {
-    display: block;
-    width: 95%;
-    margin: 12px auto;
-    padding: 14px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    transition: 0.2s;
-}
-
-/* Mercado Livre */
 .botao {
-    background-color: #3483fa;
+  display: block;
+  margin: 10px auto;
+  padding: 14px;
+  width: 85%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transition: .25s;
 }
 
-.botao:hover {
-    background-color: #2362c7;
+.mercado {
+  background: #3483fa;
+}
+.mercado:hover {
+  background: #296bd1;
 }
 
-/* WhatsApp */
-.botao-whatsapp {
-    background-color: #25d366;
+.wpp {
+  background: #25d366;
 }
-
-.botao-whatsapp:hover {
-    background-color: #1aaa53;
+.wpp:hover {
+  background: #1aaa53;
 }
